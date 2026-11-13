@@ -323,3 +323,15 @@ footer {
         text-align: center;
     }
 }
+
+/* Stack profile card elements vertically on mobile screens */
+@media screen and (max-width: 768px) {
+    .profile-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile-img {
+        margin-bottom: 1rem;
+    }
+}
