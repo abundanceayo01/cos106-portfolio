@@ -381,3 +381,35 @@ footer {
         padding: 5px 10px;
     }
 }
+
+/* Universal Mobile Overrides */
+@media screen and (max-width: 768px) {
+    /* Prevent any horizontal overflow on the whole page */
+    body, html {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Force header content to stack and wrap */
+    header {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        padding: 15px 5px !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Target any navigation lists or links in the header */
+    header nav, header ul, nav ul {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        padding: 0 !important;
+        margin: 10px 0 0 0 !important;
+        gap: 8px !important;
+    }
+}
