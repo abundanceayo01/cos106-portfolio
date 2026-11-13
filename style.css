@@ -294,3 +294,28 @@ footer {
     clear: both;
     width: 100%;
 }
+
+/* Mobile Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 10px;
+    }
+
+    .media-section, 
+    .contact-section {
+        max-width: 100% !important;
+        padding: 0 1rem;
+    }
+
+    .media-section video {
+        height: auto; /* Lets the video scale naturally on mobile */
+        max-height: 250px;
+    }
+
+    /* Adjust container padding or grid layouts for mobile view */
+    header, nav, .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
