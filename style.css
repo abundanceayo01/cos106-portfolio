@@ -355,3 +355,29 @@ footer {
         margin: 0 auto 1rem auto !important;
     }
 }
+
+/* Fix header and navbar overflow on mobile vertical view */
+@media screen and (max-width: 768px) {
+    header, nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    nav ul, .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+        margin: 10px 0 0 0;
+        list-style: none;
+    }
+
+    nav a, .nav-links a {
+        font-size: 0.95rem;
+        padding: 5px 10px;
+    }
+}
