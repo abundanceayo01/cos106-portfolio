@@ -231,6 +231,57 @@ header {
     margin-bottom: 30px
 }
 
+.media-section {
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.media-section h3 {
+    font-size: 1.5rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.media-section video {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section {
+    max-width: 800px;
+    margin: 3rem auto 2rem auto;
+    padding: 2rem 1.5rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    color: #1a1a1a;
+    margin-bottom: 1.25rem;
+}
+
+.contact-details p {
+    font-size: 1.05rem;
+    color: #333333;
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+.contact-details a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
 footer {
     text-align: center;
     padding: 20px;
